@@ -1,0 +1,40 @@
+# ========================
+# Virtual Environments
+# ========================
+venv/
+env/
+.env
+
+# ========================
+# Python Cache & Bytecode
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ========================
+# Data & Large Files (CRITICAL)
+# ========================
+data/
+*.parquet
+*.csv
+*.h5
+*.hdf5
+*.db
+*.sqlite3
+
+# ========================
+# Logs & Outputs
+# ========================
+*.log
+*.bak
+*.swp
+
+# ========================
+# OS & Editor Files
+# ========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
